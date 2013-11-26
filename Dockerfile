@@ -21,7 +21,7 @@ RUN mv /phantomjs-1.9.2-linux-x86_64 /usr/local/phantomjs-1.9.2-linux-x86_64
 RUN ln -s /usr/local/phantomjs-1.9.2-linux-x86_64/bin/phantomjs /usr/local/bin/phantomjs
 
 # home
-RUN cp -R ~/.gvm /home/hipster
+RUN mv ~/.gvm /home/hipster
 ADD examples /home/hipster/examples
 RUN chown -R hipster:hipster /home/hipster/
 RUN echo "source /home/hipster/.gvm/bin/gvm-init.sh" > /home/hipster/.bashrc
