@@ -26,13 +26,13 @@ sudo docker run -h java-dev -i -t <username>/hipster-java
 Example projects
 ----------------
 
-*Spring boot light*
+**Spring boot light**
 
 ```
 cd examples/spring-boot-simple && spring run SampleController.java
 ```
 
-*Spring boot complete*
+**Spring boot complete**
 
 ```
 cd examples/spring-boot-complete
