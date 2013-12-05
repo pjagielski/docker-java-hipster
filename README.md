@@ -13,6 +13,8 @@ Building image
 --------------
 
 ```
+git clone git@github.com:pjagielski/docker-java-hipster.git
+cd docker-java-hipster
 sudo docker build -t <username>/hipster-java .
 ```
 
