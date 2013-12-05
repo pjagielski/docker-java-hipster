@@ -28,7 +28,7 @@ sudo docker run -h java-dev -p :8088:8080 -i -t <username>/hipster-java
 Running example projects inside container
 ----------------
 
-Just run commands below in a container and then visit http://localhost:8088 on your host machine for working examples.
+Just run commands below in a container and then visit [http://localhost:8088](http://localhost:8088) on your host machine for working examples.
 
 **Spring boot light**
 
