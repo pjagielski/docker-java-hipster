@@ -1,13 +1,13 @@
 docker-java-hipster
 ===================
 
-Hipster Java development environment built with docker
+Hipster Java development environment built with [docker](http://docker.io) and powered by [gvm](http://gvmtool.net/).
 
 Featured:
-- [gvm](http://gvmtool.net/)
 - [gradle](http://www.gradle.org/)
 - [spring-boot](http://projects.spring.io/spring-boot/)
 - [vert.x](http://vertx.io/)
+- [lazybones](https://github.com/pledbrook/lazybones)
 
 Building image
 --------------
