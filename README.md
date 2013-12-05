@@ -20,11 +20,13 @@ Running container
 -----------------
 
 ```
-sudo docker run -h java-dev -i -t <username>/hipster-java
+sudo docker run -h java-dev -p :8088:8080 -i -t <username>/hipster-java
 ```
 
-Example projects
+Running example projects inside container
 ----------------
+
+Just run commands below in a container and then visit http://localhost:8088 on your host machine for working examples.
 
 **Spring boot light**
 
@@ -38,4 +40,9 @@ cd examples/spring-boot-simple && spring run SampleController.java
 cd examples/spring-boot-complete
 gradle build
 java -jar build/libs/spring-boot-complete.jar
+```
+
+**Vert.x**
+```
+cd examples/vertx && vertx run ServerExample.java
 ```
