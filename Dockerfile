@@ -18,7 +18,6 @@ RUN bash -c "source ~/.gvm/bin/gvm-init.sh && gvm install vertx; exit 0"
 RUN bash -c "source ~/.gvm/bin/gvm-init.sh && gvm install springboot; exit 0"
 
 # home
-ADD examples /home/hipster/examples
 RUN echo "source /home/hipster/.gvm/bin/gvm-init.sh" > /home/hipster/.bashrc
 
 EXPOSE 8080
