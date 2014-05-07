@@ -21,13 +21,13 @@ Running container
 -----------------
 
 ```bash
-sudo docker run -p 8088:8080 -i -t -v `pwd`/examples:/home/hipster/examples <username>/hipster-java
+docker run -p 8088:8080 -i -t -v `pwd`/examples:/home/hipster/examples <username>/hipster-java
 ```
 
 Running example projects
 ----------------
 
-Just run commands below in a container and then visit [http://localhost:8088](http://localhost:8088) on your host machine for working samples. `examples` dir is hosted from outside the container so restarting container won't erase your changes
+Just run commands below in a container and then visit [http://localhost:8088](http://localhost:8088) on your host machine for working samples. `examples` dir is hosted from outside the container so restarting container won't erase your changes.
 
 **Spring boot light**
 
